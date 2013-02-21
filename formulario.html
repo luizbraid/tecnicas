@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<title>Spoleto</title>
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+	</head>
+	<body>
+		<form action="http://www.fa7.edu.br/tecnicas/spoletto.php" method="post">
+		<img src="images.jpeg" alt="Spoleto">
+		<h1>Seja Bem Vindo!</h1>
+		<p>
+			Cliente: 
+			<input type="text" name="nome" value="" /> <br/>
+			Massas:<br/> 
+			<select name="massas">
+				<option value="spaghetti">Spaghetti</option>
+				<option value="penne">Penne</option>
+				<option value="talharim">Talharim</option>
+				<option value="fettutine">Fettutini</option>
+			</select>
+			
+		</P>
+		<p>
+			Escolha os Igredientes:<br/>
+			<input type="checkbox" name="ingredientes" value="bacon">Bacon<br/>
+			<input type="checkbox" name="ingredientes" value="palmito">Palmito<br/>
+			<input type="checkbox" name="ingredientes" value="camarao">Camarao<br/>
+			<input type="checkbox" name="ingredientes" value="alho">Alho<br/>
+			<input type="checkbox" name="ingredientes" value="carnesol">Carne de Sol<br/>
+			<input type="checkbox" name="ingredientes" value="gorgonzola">Gorgonzola<br/>
+		</p>
+		<p>
+			Molho:<br/>
+			<input type="radio" value="molho">Branco<br/>
+			<input type="radio" value="molho">4 Queijos<br/>
+			<input type="radio" value="molho">Bolonhesa<br/>
+		</p>
+		<p>
+			Deixe Sua Crítica para Nós:<br/>
+			<textarea name="critica"  rows="/" cols="50"></textarea>
+		</p>
+		<input type="submit" value="ENVIAR">
+		</form>
+	</body>
+</html>
